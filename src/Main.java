@@ -24,7 +24,6 @@ public class Main {
 
         //Consumer
         Consumer<String> cons = System.out::println;
-        Consumer<String> consL = s -> System.out.println(s);
         System.out.println("пробуем вывести имя Ивана");
         cons.accept(ivan.getName());
 
